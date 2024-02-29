@@ -39,3 +39,12 @@ function tops(msg) {
 }
 
 // or
+
+function tops(msg) {
+  let [res, i, j] = ['', 0, 0];
+
+  while (msg[j += i++ * 4 + 1]) {
+    res = msg[j] + res;
+  }
+  return res;
+}
