@@ -20,3 +20,6 @@ When the msg string is empty, return an empty string.
 The input strings may be very long. 
 Make sure your solution has good performance.
 */
+
+
+// Solution
